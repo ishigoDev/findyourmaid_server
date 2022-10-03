@@ -1,0 +1,19 @@
+{
+  "name": "findyourmaid_server",
+  "version": "1.0.0",
+  "description": "FindYourMaid Backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishigoDev/findyourmaid_server.git"
+  },
+  "author": "Pranay & Divyanshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishigoDev/findyourmaid_server/issues"
+  },
+  "homepage": "https://github.com/ishigoDev/findyourmaid_server#readme"
+}
