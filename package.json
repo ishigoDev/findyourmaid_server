@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/ishigoDev/findyourmaid_server/issues"
   },
-  "homepage": "https://github.com/ishigoDev/findyourmaid_server#readme"
+  "homepage": "https://github.com/ishigoDev/findyourmaid_server#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1"
+  }
 }
