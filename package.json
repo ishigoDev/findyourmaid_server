@@ -6,7 +6,10 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js "
+    "start": "nodemon app.js",
+    "dev": "export NODE_ENV=development|| set NODE_ENV=development&& nodemon app.js",
+    "staging": "export NODE_ENV=staging|| set NODE_ENV=staging&& nodemon app.js",
+    "production": "export NODE_ENV=production|| set NODE_ENV=production&& nodemon app.js"
   },
   "repository": {
     "type": "git",
