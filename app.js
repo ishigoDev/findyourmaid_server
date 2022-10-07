@@ -1,12 +1,16 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import envConfig from './config/config.js';
+import envConfig from './config/config_internal.js';
+import db from './models/index.js';
 
 const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
-app.use(express.static('public'));  
+app.use(express.static('public'));
 
+db.sequelize.sync().then(req=>{
+    
+})
 
 //cors error solution
 app.use((req,res,next)=>{
