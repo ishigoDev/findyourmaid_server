@@ -3,7 +3,6 @@ import bodyParser from 'body-parser';
 import envConfig from './config/config_internal.js';
 import db from './models/index.js';
 import { connectRedis } from './utility/redis.js';
-import { setExpiryInRedis, getFromRedis, delFromRedis } from './utility/redis.js';
 
 const app = express();
 app.use(bodyParser.json());

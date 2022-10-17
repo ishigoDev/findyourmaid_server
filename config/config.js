@@ -1,4 +1,4 @@
-import env from 'dotenv';
+// import env from 'dotenv';
 const config = {
   "development": {
     "username": process.env.DB_USERNAME,
